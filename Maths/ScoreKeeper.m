@@ -23,6 +23,6 @@
 
 - (NSString* )score{
     double percent = ((double) _right / (_wrong + _right)) * 100;
-    return [NSString stringWithFormat: @"score: %ld right, %ld wrong, ---- %lf", _right, _wrong, percent];
+    return [NSString stringWithFormat: @"score: %ld right, %ld wrong, ---- %lf%", _right, _wrong, percent];
 };
 @end
